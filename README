@@ -24,10 +24,9 @@ when fresh install this plugin will give you error to fix it just rename www/ico
 # add below line in cropPlugin.java
 UCrop.Options options = new UCrop.Options();
           options.setAllowedGestures(UCropActivity.SCALE, UCropActivity.SCALE, UCropActivity.SCALE);
-          @ColorInt int color = Color.parseColor("#40aef8");
-          options.setStatusBarColor(color);
-          options.setToolbarColor(color);
-          options.setActiveWidgetColor(color);
+          options.setStatusBarColor(Color.parseColor("#40aef8"));
+          options.setToolbarColor(Color.parseColor("#40aef8"));
+//          options.setActiveWidgetColor(color);
 //          options.setHideBottomControls(true);
 
           cordova.setActivityResultCallback(this);
