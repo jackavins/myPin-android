@@ -1,0 +1,12 @@
+{
+    "android": {
+        "release": {
+            "keystore": "./PlayStore/Untitled",
+            "storePassword": "mypin@123",
+            "alias": "mypin",
+            "password" : "mypin@123",
+            "keystoreType": "",
+            "packageType": "bundle"
+        }
+    }
+}
