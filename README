@@ -1,7 +1,7 @@
 # create container (not required)
 docker volume create --name android_sdk --opt type=none --opt device=/Users/atulsingh/Library/Android/sdk --opt o=bind
 
-# replace  (not required)
+# replace 
 Instead of "androidx.core.content.FileProvider" replace it with "androidx.core.content.FileProvider".
 
 # [fix] for icrop pluging
