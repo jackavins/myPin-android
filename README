@@ -9,7 +9,7 @@ when fresh install this plugin will give you error to fix it just rename www/ico
 
 # RUN
     1) npm run exec
-    2) rm -rf platforms && cordova platform add android && cordova build --release android
+    2) cd app && rm -rf platforms && cordova platform add android && cordova build --release android
 
 # Path
     Release Bundle (.aab): platforms/android/app/build/outputs/bundle/release/app-release.aab 
