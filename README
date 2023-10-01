@@ -8,7 +8,12 @@ Instead of "androidx.core.content.FileProvider" replace it with "androidx.core.c
 when fresh install this plugin will give you error to fix it just rename www/icorp.js to crop.js
 
 # RUN
-    rm -rf platforms && cordova platform add android && cordova build android --release
+    1) npm run exec
+    2) rm -rf platforms && cordova platform add android && cordova build --release android
+
+# Path
+    Release Bundle (.aab): platforms/android/app/build/outputs/bundle/release/app-release.aab 
+    Debug (.apk): platforms/android/app/build/outputs/apk/debug/app-debug.apk
 
 # [fix] for icrop in plugins/cordova-plugin-icrop/src/android/build.gradle update 
 
