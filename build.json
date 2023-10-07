@@ -1,7 +1,7 @@
 {
     "android": {
         "release": {
-            "keystore": "./PlayStore/Untitled",
+            "keystore": "./PlayStore/mypin.pepk",
             "storePassword": "mypin@123",
             "alias": "mypin",
             "password" : "mypin@123",
